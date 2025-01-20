@@ -240,7 +240,8 @@ header {
 .info-text-container-small {
     display: flex;
     width: 245px;
-    height: 100px;
+    height: auto;
+    gap: 5px;
     border: solid;
     border-radius: 20px;
     border-color: #ffff;
