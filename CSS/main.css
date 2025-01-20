@@ -223,7 +223,8 @@ header {
 .info-text-container-big {
     display: flex;
     width: 376px;
-    height: 195px;
+    height: auto;
+    gap: 5px;
     border: solid;
     border-radius: 20px;
     border-color: #ffff;
@@ -259,6 +260,7 @@ header {
     width: 90%;
     width: 376px;
     height: auto;
+    gap: 5px;
     border: solid;
     border-radius: 20px;
     border-color: #ffff;
