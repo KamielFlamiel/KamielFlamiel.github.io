@@ -276,6 +276,7 @@ header {
 @media only screen and (max-width: 600px) {
     body {
       background-color: black;
+      background-size: cover;
     }
 
     header {
@@ -354,8 +355,8 @@ header {
     .main-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        width: 100%;
+        align-items: center;
+        width: auto;
         height: auto;
     }
     
@@ -363,7 +364,7 @@ header {
         flex-direction: column;
         display: flex;
         width: auto;
-        height: 100%;
+        height: auto;
         justify-content: center;
     }
     
