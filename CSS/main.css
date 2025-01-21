@@ -391,6 +391,7 @@ header {
         height: auto;
         gap: 20px;
         margin-top: 20px;
+        margin-bottom: 10px;
     }
     
     .info-one-contact {
@@ -435,8 +436,8 @@ header {
     
     .info-text-container {
         display: flex;
-        width: 245px;
-        height: 190px;
+        width: auto;
+        height: auto;
         border: solid;
         border-radius: 20px;
         border-color: #ffff;
