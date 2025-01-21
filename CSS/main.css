@@ -89,6 +89,7 @@ header {
     align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 .nav-text {
@@ -273,18 +274,6 @@ header {
     justify-content: center;
 }
 
-@media only screen and (min-width: 600px){
-    .eng-text {
-        font-family: "Michroma", sans-serif;
-        font-size: 10px;
-        color: #ffff;
-        text-decoration: none;
-        text-shadow: 2px 2px 25px rgba(111, 217, 217, 0.5);
-        font-weight: bold;
-    }
-
-}
-
 @media only screen and (max-width: 600px) {
     body {
       background-color: black;
@@ -303,7 +292,9 @@ header {
         display: flex;
         width: 15%;
         height: auto;
-        
+        border: solid;
+        border-radius: 50px;
+        border-color: #ffff;
     }
 
     .header-name-container {
