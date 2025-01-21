@@ -273,6 +273,18 @@ header {
     justify-content: center;
 }
 
+@media only screen and (min-width: 600px){
+    .eng-text {
+        font-family: "Michroma", sans-serif;
+        font-size: 10px;
+        color: #ffff;
+        text-decoration: none;
+        text-shadow: 2px 2px 25px rgba(111, 217, 217, 0.5);
+        font-weight: bold;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: black;
@@ -285,6 +297,13 @@ header {
         width: 100%;
         height: 25%;
         align-items: center;
+    }
+
+    .header-eng-button {
+        display: flex;
+        width: 15%;
+        height: auto;
+        
     }
 
     .header-name-container {
@@ -315,20 +334,11 @@ header {
     }
     
     .eng-button-container {
-        display: flex;
-        width: 15%;
-        height: 20%;
-        align-self: flex-end;
-        margin-right: 25px;
+        display: none;
     }
     
     .eng-text {
-        font-family: "Michroma", sans-serif;
-        font-size: 10px;
-        color: #ffff;
-        text-decoration: none;
-        text-shadow: 2px 2px 25px rgba(111, 217, 217, 0.5);
-        font-weight: bold;
+        display: none;
     }
     
     .nav-bar {
