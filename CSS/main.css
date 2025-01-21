@@ -316,7 +316,7 @@ header {
     
     .eng-button-container {
         display: flex;
-        width: 20%;
+        width: 15%;
         height: 20%;
         align-self: flex-end;
     }
@@ -361,8 +361,8 @@ header {
     }
     
     .contents-container {
-        flex-direction: column;
         display: flex;
+        flex-direction: column;
         width: auto;
         height: auto;
         justify-content: center;
@@ -436,7 +436,7 @@ header {
     
     .info-text-container {
         display: flex;
-        width: auto;
+        width: 90%;
         height: auto;
         border: solid;
         border-radius: 20px;
@@ -452,8 +452,8 @@ header {
     
     .info-text-container-big {
         display: flex;
-        width: 376px;
-        height: 195px;
+        width: 90%;
+        height: auto;
         border: solid;
         border-radius: 20px;
         border-color: #ffff;
@@ -469,8 +469,8 @@ header {
     
     .info-text-container-small {
         display: flex;
-        width: 245px;
-        height: 100px;
+        width: 90%;
+        height: auto;
         border: solid;
         border-radius: 20px;
         border-color: #ffff;
@@ -486,7 +486,6 @@ header {
     .info-text-container-contact {
         display: flex;
         width: 90%;
-        width: 376px;
         height: auto;
         border: solid;
         border-radius: 20px;
