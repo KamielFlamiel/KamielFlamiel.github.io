@@ -300,11 +300,13 @@ header {
         border-radius: 50px;
         border-color: #ffff;
         align-self: flex-end;
+        justify-content: center;
+        margin-right: 5px;
     }
 
     .header-eng-text {
         font-family: "Michroma", sans-serif;
-        font-size: 25px;
+        font-size: 15px;
         color: #ffff;
         text-decoration: none;
         text-shadow: 2px 2px 25px rgba(111, 217, 217, 0.5);
