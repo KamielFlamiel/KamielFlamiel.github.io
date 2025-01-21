@@ -503,7 +503,7 @@ header {
     
     .info-text-container-contact {
         display: flex;
-        width: 90%;
+        width: auto;
         height: auto;
         border: solid;
         border-radius: 20px;
