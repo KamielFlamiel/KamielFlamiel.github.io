@@ -19,6 +19,10 @@ header {
     margin-top: 10px;
 }
 
+.header-eng-button {
+    display: none;
+}
+
 .header-name-container {
     display: flex;
     flex-direction: column;
@@ -291,10 +295,11 @@ header {
     .header-eng-button {
         display: flex;
         width: 15%;
-        height: auto;
+        height: 15%;
         border: solid;
         border-radius: 50px;
         border-color: #ffff;
+        align-self: flex-end;
     }
 
     .header-name-container {
