@@ -379,6 +379,7 @@ header {
         text-decoration: none;
         text-shadow: 2px 2px 25px rgba(111, 217, 217, 1);
         font-weight: 550;
+        margin: 0 15px;
     }
     
     .main-container {
