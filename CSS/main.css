@@ -113,6 +113,7 @@ header {
 
 .nav-list li {
     display: flex;
+    margin-right: 20px;
 }
 
 .main-container {
