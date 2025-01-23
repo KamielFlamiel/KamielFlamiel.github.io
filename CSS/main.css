@@ -106,6 +106,15 @@ header {
     font-weight: 550;
 }
 
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: flex;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
