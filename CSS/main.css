@@ -154,7 +154,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 65%;
     height: 90px;
     border: solid;
     border-radius: 50px;
