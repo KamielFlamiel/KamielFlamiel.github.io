@@ -138,7 +138,7 @@ header {
     display: flex;
     width: 50%;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .header-container {
